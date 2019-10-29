@@ -3,6 +3,7 @@
     <nav class="nav justify-content-center">
       <router-link to="/counter">Counter</router-link>
       <router-link to="/circle">Draw Circle</router-link>
+       <router-link to="/exel">Exel</router-link>
     </nav>
     <router-view></router-view>
     <!-- <Counter /> -->
@@ -30,6 +31,9 @@ export default {
   margin-top: 60px;
 }
 .nav > a:nth-child(2){
+    margin-left: 10px;
+}
+.nav > a:nth-child(3){
     margin-left: 10px;
 }
 </style>
